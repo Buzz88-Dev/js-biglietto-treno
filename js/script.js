@@ -16,8 +16,8 @@ if (age < 18) {
 }
 
 // Arrotondamento a due cifre decimali
-let prezzoTotale = prezzoTicket.toFixed(2);
-console.log("Il prezzo totale del mio biglietto è di:", prezzoTotale, "Euro");
+prezzoTicket = prezzoTicket.toFixed(2);
+console.log("Il prezzo totale del mio biglietto è di:", prezzoTicket, "Euro");
 
 
-document.getElementById("prezzo_ticket").innerHTML = prezzoTotale;
+document.getElementById("prezzo_ticket").innerHTML = prezzoTicket;
